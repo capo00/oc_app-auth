@@ -1,0 +1,20 @@
+{
+  "name": "oc_app-auth",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "npm publish --access public"
+  },
+  "keywords": ["nodejs", "authentication", "auth", "mongodb", "google"],
+  "author": "",
+  "license": "MIT",
+  "description": "NodeJS library with authentication API.",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
